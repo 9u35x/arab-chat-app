@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Wortise.AppOpen" parent="@style/Theme.Wortise.Base.Api30.AppOpen" />
+    <style name="Theme.Wortise.Interstitial" parent="@style/Theme.Wortise.Base.Api30.Interstitial" />
+    <style name="Theme.Wortise.Rewarded" parent="@style/Theme.Wortise.Base.Api30.Rewarded" />
+    <style name="Theme.Wortise.Base.Api30.AppOpen" parent="@style/Theme.Wortise.Base.AppOpen">
+        <item name="android:windowLayoutInDisplayCutoutMode">always</item>
+    </style>
+    <style name="Theme.Wortise.Base.Api30.Interstitial" parent="@style/Theme.Wortise.Base.Interstitial">
+        <item name="android:windowLayoutInDisplayCutoutMode">always</item>
+    </style>
+    <style name="Theme.Wortise.Base.Api30.Rewarded" parent="@style/Theme.Wortise.Base.Rewarded">
+        <item name="android:windowLayoutInDisplayCutoutMode">always</item>
+    </style>
+</resources>

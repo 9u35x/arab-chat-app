@@ -1,0 +1,56 @@
+.class La3945963/cti/chat_perfil$8;
+.super Ljava/lang/Object;
+.source "chat_perfil.java"
+
+# interfaces
+.implements Landroid/widget/AdapterView$OnItemClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = La3945963/cti/chat_perfil;->onCreate(Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:La3945963/cti/chat_perfil;
+
+
+# direct methods
+.method constructor <init>(La3945963/cti/chat_perfil;)V
+    .locals 0
+
+    .line 813
+    iput-object p1, p0, La3945963/cti/chat_perfil$8;->this$0:La3945963/cti/chat_perfil;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/widget/AdapterView<",
+            "*>;",
+            "Landroid/view/View;",
+            "IJ)V"
+        }
+    .end annotation
+
+    .line 818
+    iget-object p1, p0, La3945963/cti/chat_perfil$8;->this$0:La3945963/cti/chat_perfil;
+
+    invoke-static {p1, p3}, La3945963/cti/chat_perfil;->-$$Nest$fputpos_d(La3945963/cti/chat_perfil;I)V
+
+    return-void
+.end method

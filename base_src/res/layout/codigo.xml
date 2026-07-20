@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/ll_princ"
+        android:background="@color/bgBase"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60.0dip"
+            android:paddingLeft="24.0dip"
+            android:paddingRight="24.0dip">
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:id="@id/ll_contenido"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="normal"
+                        android:textColor="@color/textPrimaryDark"
+                        android:textSize="16.0sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:id="@id/tv_codigo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/codigo_invit"
+                        android:layout_centerVertical="true" />
+                    <EditText
+                        android:id="@id/et_cod"
+                        android:textColor="@color/textPrimaryDark"
+                        android:textSize="18.0sp"
+                        android:background="@drawable/bg_input_field"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:minEms="4"
+                        android:maxLength="4"
+                        android:layout_toRightOf="@id/tv_codigo"
+                        android:layout_centerVertical="true"
+                        android:inputType="textCapCharacters"
+                        android:textCursorDrawable="@null"
+                        android:letterSpacing="0.3"
+                        android:layout_marginStart="12.0dip"
+                        android:layout_toEndOf="@id/tv_codigo" />
+                </RelativeLayout>
+                <TextView
+                    android:textStyle="normal"
+                    android:textColor="@color/textOnAccent"
+                    android:textSize="15.0sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/btn_enviar"
+                    android:background="@drawable/bg_gradient_primary_button"
+                    android:paddingLeft="28.0dip"
+                    android:paddingRight="28.0dip"
+                    android:paddingTop="12.0dip"
+                    android:paddingBottom="12.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24.0dip"
+                    android:layout_marginBottom="14.0dip"
+                    android:text="@string/enviar"
+                    android:textAllCaps="false" />
+                <TextView
+                    android:textColor="@color/textSecondaryDark"
+                    android:textSize="13.0sp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/tv_solicita"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/solicitar_acceso" />
+            </LinearLayout>
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@id/pb"
+                android:visibility="gone"
+                android:indeterminateTint="@color/colorAccent"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

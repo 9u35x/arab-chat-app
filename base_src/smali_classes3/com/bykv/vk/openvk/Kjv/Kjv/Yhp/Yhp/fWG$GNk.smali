@@ -1,0 +1,22 @@
+.class public interface abstract Lcom/bykv/vk/openvk/Kjv/Kjv/Yhp/Yhp/fWG$GNk;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bykv/vk/openvk/Kjv/Kjv/Yhp/Yhp/fWG;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "GNk"
+.end annotation
+
+
+# virtual methods
+.method public abstract Kjv(Lcom/bykv/vk/openvk/Kjv/Kjv/Yhp/Yhp/fWG;)V
+.end method
+
+.method public abstract Yhp(Lcom/bykv/vk/openvk/Kjv/Kjv/Yhp/Yhp/fWG;)V
+.end method

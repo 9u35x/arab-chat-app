@@ -1,0 +1,54 @@
+.class final Lcom/appnext/banners/a$8;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/appnext/banners/a;->createWideImage(Landroid/widget/ImageView;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic bz:Lcom/appnext/banners/a;
+
+
+# direct methods
+.method constructor <init>(Lcom/appnext/banners/a;)V
+    .locals 0
+
+    .line 586
+    iput-object p1, p0, Lcom/appnext/banners/a$8;->bz:Lcom/appnext/banners/a;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    .line 589
+    iget-object p1, p0, Lcom/appnext/banners/a$8;->bz:Lcom/appnext/banners/a;
+
+    const-string v0, "banner_click_else"
+
+    invoke-static {p1, v0}, Lcom/appnext/banners/a;->-$$Nest$mreport(Lcom/appnext/banners/a;Ljava/lang/String;)V
+
+    .line 590
+    iget-object p1, p0, Lcom/appnext/banners/a$8;->bz:Lcom/appnext/banners/a;
+
+    invoke-virtual {p1}, Lcom/appnext/banners/a;->click()V
+
+    return-void
+.end method

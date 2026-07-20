@@ -1,0 +1,27 @@
+.class public final Lcom/startapp/sdk/internal/b;
+.super Ljava/lang/Object;
+.source "Sta"
+
+# interfaces
+.implements Lcom/startapp/sdk/internal/e;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(J)J
+    .locals 0
+
+    const-wide/16 p1, 0x0
+
+    return-wide p1
+.end method

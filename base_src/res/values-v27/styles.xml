@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Wortise.AppOpen" parent="@style/Theme.Wortise.Base.Api27.AppOpen" />
+    <style name="Theme.Wortise.Interstitial" parent="@style/Theme.Wortise.Base.Api27.Interstitial" />
+    <style name="Theme.Wortise.Rewarded" parent="@style/Theme.Wortise.Base.Api27.Rewarded" />
+    <style name="mbridge_transparent_common_activity_style" parent="@style/mbridge_common_activity_style" />
+    <style name="Theme.Wortise.Base.Api27.AppOpen" parent="@style/Theme.Wortise.Base.AppOpen">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <style name="Theme.Wortise.Base.Api27.Interstitial" parent="@style/Theme.Wortise.Base.Interstitial">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <style name="Theme.Wortise.Base.Api27.Rewarded" parent="@style/Theme.Wortise.Base.Rewarded">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>

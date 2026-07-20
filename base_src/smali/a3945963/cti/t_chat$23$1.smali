@@ -1,0 +1,65 @@
+.class La3945963/cti/t_chat$23$1;
+.super Ljava/lang/Object;
+.source "t_chat.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = La3945963/cti/t_chat$23;->run()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$1:La3945963/cti/t_chat$23;
+
+
+# direct methods
+.method constructor <init>(La3945963/cti/t_chat$23;)V
+    .locals 0
+
+    .line 2661
+    iput-object p1, p0, La3945963/cti/t_chat$23$1;->this$1:La3945963/cti/t_chat$23;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 3
+
+    .line 2664
+    iget-object v0, p0, La3945963/cti/t_chat$23$1;->this$1:La3945963/cti/t_chat$23;
+
+    iget-object v0, v0, La3945963/cti/t_chat$23;->this$0:La3945963/cti/t_chat;
+
+    invoke-static {v0}, La3945963/cti/t_chat;->-$$Nest$fgetglobales(La3945963/cti/t_chat;)La3945963/cti/config;
+
+    move-result-object v0
+
+    iget-object v1, p0, La3945963/cti/t_chat$23$1;->this$1:La3945963/cti/t_chat$23;
+
+    iget-object v1, v1, La3945963/cti/t_chat$23;->this$0:La3945963/cti/t_chat;
+
+    check-cast p1, Landroid/widget/ImageView;
+
+    iget-object v2, p0, La3945963/cti/t_chat$23$1;->this$1:La3945963/cti/t_chat$23;
+
+    iget-object v2, v2, La3945963/cti/t_chat$23;->this$0:La3945963/cti/t_chat;
+
+    iget-object v2, v2, La3945963/cti/t_chat;->cbtn:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, p1, v2}, La3945963/cti/config;->f_ban(Landroid/content/Context;Landroid/widget/ImageView;Ljava/lang/String;)V
+
+    return-void
+.end method
